@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Housing Marketplace App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A marketplace app where users can add property listings for rent or for sale. They can create accounts thorugh google or custom sign-in features for adding more listings.🏡🏷️
 
-## Available Scripts
+## Authors
 
-In the project directory, you can run:
+- [@KavyaSachdeva](https://www.github.com/KavyaSachdeva)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User sign-in features through Google sign-in
+- Sections for offers, rent, and on sale
+- Mobile friendly view
+- Upto 6 image uploads for property listings
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run Locally
 
-### `npm test`
+Clone the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/KavyaSachdeva/Housing-Marketplace-App
+```
 
-### `npm run build`
+Go to the project directory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd my-project
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install firebase@^10.12.2 helmet@^7.1.0 leaflet@^1.9.4 react@^18.3.1 react-dom@^18.3.1 react-leaflet@^4.2.1 react-router-dom@^6.24.0 react-scripts@5.0.1 react-toastify@^10.0.5 swipe@^1.7.7 swiper@^6.8.4 uuid@^10.0.0
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Client:** ReactJS, CSS
 
-## Learn More
+**Server:** NodeJS, Firebase, Google OAuth
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://ibb.co/jHfBntS"><img src="https://i.ibb.co/N7CQcRM/Screenshot-2024-08-14-at-12-11-20-AM.png" alt="Screenshot-2024-08-14-at-12-11-20-AM"></a>
+<a href="https://ibb.co/YNcT5CZ"><img src="https://i.ibb.co/WHkprht/Screenshot-2024-08-14-at-12-11-39-AM.png" alt="Screenshot-2024-08-14-at-12-11-39-AM"></a>
+<a href="https://ibb.co/1s1MhhR"><img src="https://i.ibb.co/Gsy9BBC/Screenshot-2024-08-14-at-12-11-56-AM.png" alt="Screenshot-2024-08-14-at-12-11-56-AM"></a>
+<a href="https://ibb.co/mJ0y7c6"><img src="https://i.ibb.co/cJw8drD/Screenshot-2024-08-14-at-12-12-08-AM.png" alt="Screenshot-2024-08-14-at-12-12-08-AM"></a>
+<a href="https://ibb.co/qxCggQ8"><img src="https://i.ibb.co/PtMWWHy/Screenshot-2024-08-14-at-12-13-32-AM.png" alt="Screenshot-2024-08-14-at-12-13-32-AM"></a>
